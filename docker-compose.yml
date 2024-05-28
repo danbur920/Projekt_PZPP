@@ -1,0 +1,43 @@
+version: '3.4'
+
+services:
+  board:
+    image: ${DOCKER_REGISTRY-}board
+    build:
+      context: .
+      dockerfile: BoardMicroservice/Dockerfile
+      ports:
+      - "5000:80" 
+-
+    list:
+    image: ${DOCKER_REGISTRY-}list
+    build:
+      context: .
+      dockerfile: List/Dockerfile
+    ports:
+      - "5001:80"
+
+  task:
+    image: ${DOCKER_REGISTRY-}task
+    build:
+      context: .
+      dockerfile: Task/Dockerfile
+    ports:
+      - "5002:80"
+
+  comment:
+    image: ${DOCKER_REGISTRY-}comment
+    build:
+      context: .
+      dockerfile: Comment/Dockerfile
+    ports:
+      - "5003:80"
+
+  user-management:
+    image: ${DOCKER_REGISTRY-}user-management
+    build:
+      context: .
+      dockerfile: UserManagement/Dockerfile
+    ports:
+      - "5004:80"
+
