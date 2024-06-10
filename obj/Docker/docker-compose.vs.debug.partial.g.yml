@@ -35,41 +35,6 @@ services:
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true
-  comment:
-    image: comment:dev
-    container_name: "Comment"
-    build:
-      args:
-        BUILD_CONFIGURATION: Debug
-      target: base
-      labels:
-        com.microsoft.created-by: "visual-studio"
-        com.microsoft.visual-studio.project-name: "Comment"
-    environment:
-      - DOTNET_USE_POLLING_FILE_WATCHER=1
-      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
-      - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
-    volumes:
-      - C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\Comment:/app:rw
-      - C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP:/src:rw
-      - C:\Users\danbu\vsdbg\vs2017u5:/remote_debugger:rw
-      - C:\Users\danbu\.nuget\packages:/.nuget/packages:ro
-      - C:\Program Files\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
-      - C:\Users\danbu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
-      - C:\Users\danbu\AppData\Roaming\ASP.NET\Https:/home/app/.aspnet/https:ro
-      - C:\Users\danbu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
-      - C:\Users\danbu\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net7.0:/VSTools:ro
-      - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
-
-    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
-    labels:
-      com.microsoft.visualstudio.debuggee.program: "dotnet"
-      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  \"/app/bin/Debug/net7.0/Comment.dll\""
-      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
-      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
-    tty: true
-
   list:
     image: list:dev
     container_name: "List"
@@ -101,6 +66,41 @@ services:
     labels:
       com.microsoft.visualstudio.debuggee.program: "dotnet"
       com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  \"/app/bin/Debug/net7.0/List.dll\""
+      com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
+      com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
+    tty: true
+
+  rabbitmqservice:
+    image: rabbitmqservice:dev
+    container_name: "RabbitMQService"
+    build:
+      args:
+        BUILD_CONFIGURATION: Debug
+      target: base
+      labels:
+        com.microsoft.created-by: "visual-studio"
+        com.microsoft.visual-studio.project-name: "RabbitMQService"
+    environment:
+      - DOTNET_USE_POLLING_FILE_WATCHER=1
+      - ASPNETCORE_LOGGING__CONSOLE__DISABLECOLORS=true
+      - NUGET_FALLBACK_PACKAGES=/.nuget/fallbackpackages
+    volumes:
+      - C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\RabbitMQService:/app:rw
+      - C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP:/src:rw
+      - C:\Users\danbu\vsdbg\vs2017u5:/remote_debugger:rw
+      - C:\Users\danbu\.nuget\packages:/.nuget/packages:ro
+      - C:\Program Files\Microsoft Visual Studio\Shared\NuGetPackages:/.nuget/fallbackpackages:ro
+      - C:\Users\danbu\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+      - C:\Users\danbu\AppData\Roaming\ASP.NET\Https:/home/app/.aspnet/https:ro
+      - C:\Users\danbu\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+      - C:\Users\danbu\AppData\Roaming\Microsoft\UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Sdks\Microsoft.Docker.Sdk\tools\linux-x64\net7.0:/VSTools:ro
+      - C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\HotReload:/HotReloadAgent:ro
+
+    entrypoint: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --wait"
+    labels:
+      com.microsoft.visualstudio.debuggee.program: "dotnet"
+      com.microsoft.visualstudio.debuggee.arguments: " --additionalProbingPath /.nuget/packages --additionalProbingPath /.nuget/fallbackpackages  \"/app/bin/Debug/net7.0/RabbitMQService.dll\""
       com.microsoft.visualstudio.debuggee.workingdirectory: "/app"
       com.microsoft.visualstudio.debuggee.killprogram: "dotnet --roll-forward Major /VSTools/DistrolessHelper/DistrolessHelper.dll --stop dotnet"
     tty: true

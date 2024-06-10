@@ -3,9 +3,6 @@ C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\appsettings.Development.json
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\appsettings.json
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Board.exe
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Comment.deps.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Comment.runtimeconfig.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Comment.exe
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\List.deps.json
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\List.runtimeconfig.json
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\List.exe
@@ -16,7 +13,6 @@ C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\UserManagement.runtimeconfig.json
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\UserManagement.exe
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Board.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Comment.dll
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\List.dll
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Task.dll
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\UserManagement.dll
@@ -33,10 +29,15 @@ C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Azure.Security.KeyVault.Certificates.dll
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Azure.Security.KeyVault.Secrets.dll
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Board.pdb
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Comment.pdb
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\List.pdb
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\Task.pdb
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\UserManagement.pdb
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\obj\Debug\docker-compose.dcproj.AssemblyReference.cache
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache
 C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\obj\Debug\docker-c.35A3FFBA.Up2Date
+C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\RabbitMQService.deps.json
+C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\RabbitMQService.runtimeconfig.json
+C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\RabbitMQService.exe
+C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\RabbitMQService.dll
+C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\RabbitMQ.Client.dll
+C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\bin\Debug\RabbitMQService.pdb

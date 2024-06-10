@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}|RabbitMQService\\RabbitMQService.csproj|c:\\users\\danbu\\desktop\\studia_6_semestr\\pzpp\\nowy folder\\projekt_pzpp\\rabbitmqservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}|RabbitMQService\\RabbitMQService.csproj|solutionrelative:rabbitmqservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4F09E6BA-65FC-4D73-AC02-883D0D921371}|List\\List.csproj|c:\\users\\danbu\\desktop\\studia_6_semestr\\pzpp\\nowy folder\\projekt_pzpp\\list\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4F09E6BA-65FC-4D73-AC02-883D0D921371}|List\\List.csproj|solutionrelative:list\\controllers\\listcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}|RabbitMQService\\RabbitMQService.csproj|c:\\users\\danbu\\desktop\\studia_6_semestr\\pzpp\\nowy folder\\projekt_pzpp\\rabbitmqservice\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}|RabbitMQService\\RabbitMQService.csproj|solutionrelative:rabbitmqservice\\services\\rabbitmqservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}|RabbitMQService\\RabbitMQService.csproj|c:\\users\\danbu\\desktop\\studia_6_semestr\\pzpp\\nowy folder\\projekt_pzpp\\rabbitmqservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}|RabbitMQService\\RabbitMQService.csproj|solutionrelative:rabbitmqservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}|RabbitMQService\\RabbitMQService.csproj|c:\\users\\danbu\\desktop\\studia_6_semestr\\pzpp\\nowy folder\\projekt_pzpp\\rabbitmqservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -98,24 +98,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "WeatherForecastController.cs",
-              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Controllers\\WeatherForecastController.cs",
-              "RelativeDocumentMoniker": "RabbitMQService\\Controllers\\WeatherForecastController.cs",
-              "ToolTip": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Controllers\\WeatherForecastController.cs",
-              "RelativeToolTip": "RabbitMQService\\Controllers\\WeatherForecastController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T19:10:49.287Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "BoardController.cs",
               "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\Board\\Controllers\\BoardController.cs",
               "RelativeDocumentMoniker": "Board\\Controllers\\BoardController.cs",
@@ -123,12 +110,11 @@
               "RelativeToolTip": "Board\\Controllers\\BoardController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T18:51:52.435Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T18:51:52.435Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ListController.cs",
               "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\List\\Controllers\\ListController.cs",
               "RelativeDocumentMoniker": "List\\Controllers\\ListController.cs",
@@ -141,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "_Task.cs",
               "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\Task\\Models\\_Task.cs",
               "RelativeDocumentMoniker": "Task\\Models\\_Task.cs",
@@ -149,12 +135,11 @@
               "RelativeToolTip": "Task\\Models\\_Task.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T18:48:31.229Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T18:48:31.229Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\Task\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Task\\Controllers\\TaskController.cs",
@@ -162,12 +147,11 @@
               "RelativeToolTip": "Task\\Controllers\\TaskController.cs",
               "ViewState": "AQIAADIAAAAAAAAAAAAcwEIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T16:01:56.505Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T16:01:56.505Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "RabbitMQService.cs",
               "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Services\\RabbitMQService.cs",
               "RelativeDocumentMoniker": "RabbitMQService\\Services\\RabbitMQService.cs",
@@ -175,8 +159,7 @@
               "RelativeToolTip": "RabbitMQService\\Services\\RabbitMQService.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAwwCYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T16:13:11.118Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T16:13:11.118Z"
             },
             {
               "$type": "Document",
@@ -188,25 +171,23 @@
               "RelativeToolTip": "RabbitMQService\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-10T16:30:21.689Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T16:30:21.689Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "docker-compose",
+              "Title": "docker-compose.dcproj",
               "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\docker-compose.dcproj",
               "RelativeDocumentMoniker": "docker-compose.dcproj",
               "ToolTip": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\docker-compose.dcproj",
               "RelativeToolTip": "docker-compose.dcproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-10T15:28:07.177Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T15:28:07.177Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "RabbitMQController.cs",
               "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Controllers\\RabbitMQController.cs",
               "RelativeDocumentMoniker": "RabbitMQService\\Controllers\\RabbitMQController.cs",
@@ -214,8 +195,32 @@
               "RelativeToolTip": "RabbitMQService\\Controllers\\RabbitMQController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T16:14:33.366Z",
+              "WhenOpened": "2024-06-10T16:14:33.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Program.cs",
+              "RelativeDocumentMoniker": "RabbitMQService\\Program.cs",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Program.cs",
+              "RelativeToolTip": "RabbitMQService\\Program.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAuwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T16:12:01.635Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "RabbitMQService\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "RabbitMQService\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T19:10:49.287Z"
             },
             {
               "$type": "Document",
@@ -227,8 +232,7 @@
               "RelativeToolTip": "Task\\Models\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T17:57:49.027Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T17:57:49.027Z"
             },
             {
               "$type": "Document",
@@ -240,8 +244,7 @@
               "RelativeToolTip": "List\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T15:07:32.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T15:07:32.352Z"
             },
             {
               "$type": "Document",
@@ -253,21 +256,7 @@
               "RelativeToolTip": "docker-compose.yml",
               "ViewState": "AQIAACAAAAAAAAAAAAAswEIAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-06-10T15:29:08.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Program.cs",
-              "RelativeDocumentMoniker": "RabbitMQService\\Program.cs",
-              "ToolTip": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\RabbitMQService\\Program.cs",
-              "RelativeToolTip": "RabbitMQService\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAADwvxkAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T16:12:01.635Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T15:29:08.753Z"
             },
             {
               "$type": "Document",
@@ -279,8 +268,7 @@
               "RelativeToolTip": "Task\\Properties\\launchSettings.json",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABkAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-10T17:34:33.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T17:34:33.904Z"
             },
             {
               "$type": "Document",
@@ -292,8 +280,7 @@
               "RelativeToolTip": "Task\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-10T17:34:27.1Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T17:34:27.1Z"
             },
             {
               "$type": "Document",
@@ -305,8 +292,7 @@
               "RelativeToolTip": "Task\\Dockerfile",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-10T17:57:53.081Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T17:57:53.081Z"
             },
             {
               "$type": "Document",
@@ -318,8 +304,7 @@
               "RelativeToolTip": "launchSettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-10T16:33:11.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T16:33:11.028Z"
             },
             {
               "$type": "Document",
@@ -331,8 +316,7 @@
               "RelativeToolTip": ".dockerignore",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-10T16:33:14.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T16:33:14.432Z"
             },
             {
               "$type": "Document",
@@ -344,8 +328,7 @@
               "RelativeToolTip": "docker-compose.override.yml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-06-10T16:33:23.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T16:33:23.007Z"
             },
             {
               "$type": "Document",
@@ -357,8 +340,7 @@
               "RelativeToolTip": "RabbitMQService\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-06-10T16:57:59.219Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T16:57:59.219Z"
             },
             {
               "$type": "Document",
@@ -370,8 +352,7 @@
               "RelativeToolTip": "Task\\Program.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T15:10:39.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T15:10:39.499Z"
             },
             {
               "$type": "Document",
@@ -383,8 +364,7 @@
               "RelativeToolTip": "Board\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAABaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T15:10:16.721Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-10T15:10:16.721Z"
             }
           ]
         }
