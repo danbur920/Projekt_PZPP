@@ -2,6 +2,10 @@
 using Board.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace Board.Controllers
 {
@@ -10,10 +14,13 @@ namespace Board.Controllers
     public class BoardController : ControllerBase
     {
         private readonly IBoardService _boardService;
+        private readonly HttpClient _rabbitMQClient;
 
-        public BoardController(IBoardService boardService)
+        public BoardController(IBoardService boardService, IHttpClientFactory httpClientFactory)
         {
             _boardService = boardService;
+            _rabbitMQClient = httpClientFactory.CreateClient();
+            _rabbitMQClient.BaseAddress = new Uri("http://rabbitmqservice:80/api/rabbitmq");
         }
 
         [HttpGet]
@@ -43,6 +50,12 @@ namespace Board.Controllers
             }
 
             await _boardService.AddBoard(board);
+
+            var message = JsonSerializer.Serialize(new { action = "add", board });
+            var content = new StringContent(message, Encoding.UTF8, "application/json");
+            var response = await _rabbitMQClient.PostAsync("board_queue", content);
+            response.EnsureSuccessStatusCode();
+
             return CreatedAtAction(nameof(GetBoardById), new { id = board.Id }, board);
         }
 
@@ -61,6 +74,12 @@ namespace Board.Controllers
             }
 
             await _boardService.UpdateBoard(board);
+
+            var message = JsonSerializer.Serialize(new { action = "update", board });
+            var content = new StringContent(message, Encoding.UTF8, "application/json");
+            var response = await _rabbitMQClient.PostAsync("board_queue", content);
+            response.EnsureSuccessStatusCode();
+
             return NoContent();
         }
 
@@ -74,6 +93,12 @@ namespace Board.Controllers
             }
 
             await _boardService.DeleteBoard(id);
+
+            var message = JsonSerializer.Serialize(new { action = "delete", boardId = id });
+            var content = new StringContent(message, Encoding.UTF8, "application/json");
+            var response = await _rabbitMQClient.PostAsync("board_queue", content);
+            response.EnsureSuccessStatusCode();
+
             return NoContent();
         }
     }

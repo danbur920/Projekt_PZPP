@@ -5,17 +5,21 @@ services:
     image: ${DOCKER_REGISTRY-}board
     build:
       context: .
-      dockerfile: BoardMicroservice/Dockerfile
-      ports:
-      - "5000:80" 
--
-    list:
+      dockerfile: Board/Dockerfile
+    ports:
+      - "5000:80"
+    networks:
+      - default
+
+  list:
     image: ${DOCKER_REGISTRY-}list
     build:
       context: .
       dockerfile: List/Dockerfile
     ports:
       - "5001:80"
+    networks:
+      - default
 
   task:
     image: ${DOCKER_REGISTRY-}task
@@ -24,14 +28,8 @@ services:
       dockerfile: Task/Dockerfile
     ports:
       - "5002:80"
-
-  comment:
-    image: ${DOCKER_REGISTRY-}comment
-    build:
-      context: .
-      dockerfile: Comment/Dockerfile
-    ports:
-      - "5003:80"
+    networks:
+      - default
 
   user-management:
     image: ${DOCKER_REGISTRY-}user-management
@@ -39,5 +37,31 @@ services:
       context: .
       dockerfile: UserManagement/Dockerfile
     ports:
-      - "5004:80"
+      - "5003:80"
+    networks:
+      - default
 
+  rabbitmqservice:
+    build:
+      context: .
+      dockerfile: RabbitMQService/Dockerfile
+    ports:
+      - "5005:80"
+    networks:
+      - default
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: user
+      RABBITMQ_DEFAULT_PASS: password
+    networks:
+      - default
+
+networks:
+  default:
+    external:
+      name: projekt_pzpp_default

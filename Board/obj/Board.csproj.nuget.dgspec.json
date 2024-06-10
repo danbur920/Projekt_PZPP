@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\danbu\\Desktop\\PZPP_Actual\\PZPP\\Projekt\\PZPP\\Board\\Board.csproj": {}
+    "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\Board\\Board.csproj": {}
   },
   "projects": {
-    "C:\\Users\\danbu\\Desktop\\PZPP_Actual\\PZPP\\Projekt\\PZPP\\Board\\Board.csproj": {
+    "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\Board\\Board.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\danbu\\Desktop\\PZPP_Actual\\PZPP\\Projekt\\PZPP\\Board\\Board.csproj",
+        "projectUniqueName": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\Board\\Board.csproj",
         "projectName": "Board",
-        "projectPath": "C:\\Users\\danbu\\Desktop\\PZPP_Actual\\PZPP\\Projekt\\PZPP\\Board\\Board.csproj",
+        "projectPath": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\Board\\Board.csproj",
         "packagesPath": "C:\\Users\\danbu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\danbu\\Desktop\\PZPP_Actual\\PZPP\\Projekt\\PZPP\\Board\\obj\\",
+        "outputPath": "C:\\Users\\danbu\\Desktop\\Studia_6_semestr\\PZPP\\Nowy folder\\Projekt_PZPP\\Board\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -39,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -67,6 +72,10 @@
               "target": "Package",
               "version": "[1.19.5, )"
             },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.5.0, )"
@@ -91,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }

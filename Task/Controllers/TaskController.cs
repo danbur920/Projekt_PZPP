@@ -1,5 +1,9 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
 using Task.Models;
 using Task.Services.Interfaces;
 
@@ -10,10 +14,13 @@ namespace Task.Controllers
     public class TaskController : ControllerBase
     {
         private readonly ITaskService _taskService;
+        private readonly HttpClient _httpClient;
 
-        public TaskController(ITaskService taskService)
+        public TaskController(ITaskService taskService, IHttpClientFactory httpClientFactory)
         {
             _taskService = taskService;
+            _httpClient = httpClientFactory.CreateClient();
+            _httpClient.BaseAddress = new Uri("http://rabbitmqservice:80");
         }
 
         [HttpGet]
@@ -37,6 +44,12 @@ namespace Task.Controllers
         public async Task<ActionResult<_Task>> CreateTask(_Task task)
         {
             var createdTask = await _taskService.CreateTaskAsync(task);
+
+            var message = JsonSerializer.Serialize(new { action = "create", task = createdTask });
+            var content = new StringContent(message, Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync("api/rabbitmq/task_queue", content);
+            response.EnsureSuccessStatusCode();
+
             return CreatedAtAction(nameof(GetTaskById), new { id = createdTask.Id }, createdTask);
         }
 
@@ -51,6 +64,11 @@ namespace Task.Controllers
             try
             {
                 await _taskService.UpdateTaskAsync(task);
+
+                var message = JsonSerializer.Serialize(new { action = "update", task });
+                var content = new StringContent(message, Encoding.UTF8, "application/json");
+                var response = await _httpClient.PostAsync("api/rabbitmq/task_queue", content);
+                response.EnsureSuccessStatusCode();
             }
             catch (ArgumentException)
             {
@@ -64,6 +82,12 @@ namespace Task.Controllers
         public async Task<IActionResult> DeleteTask(int id)
         {
             await _taskService.DeleteTaskAsync(id);
+
+            var message = JsonSerializer.Serialize(new { action = "delete", taskId = id });
+            var content = new StringContent(message, Encoding.UTF8, "application/json");
+            var response = await _httpClient.PostAsync("api/rabbitmq/task_queue", content);
+            response.EnsureSuccessStatusCode();
+
             return NoContent();
         }
     }

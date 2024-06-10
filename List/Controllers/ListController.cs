@@ -2,6 +2,10 @@
 using List.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Net.Http;
+using System.Text;
+using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace List.Controllers
 {
@@ -10,10 +14,13 @@ namespace List.Controllers
     public class ListController : ControllerBase
     {
         private readonly IListService _listService;
+        private readonly HttpClient _rabbitMQClient;
 
-        public ListController(IListService listService)
+        public ListController(IListService listService, IHttpClientFactory httpClientFactory)
         {
             _listService = listService;
+            _rabbitMQClient = httpClientFactory.CreateClient();
+            _rabbitMQClient.BaseAddress = new Uri("http://rabbitmqservice:80/api/rabbitmq");
         }
 
         [HttpGet]
@@ -43,6 +50,12 @@ namespace List.Controllers
             }
 
             var createdList = await _listService.CreateListAsync(list);
+
+            var message = JsonSerializer.Serialize(new { action = "create", list });
+            var content = new StringContent(message, Encoding.UTF8, "application/json");
+            var response = await _rabbitMQClient.PostAsync("task_queue", content);
+            response.EnsureSuccessStatusCode();
+
             return CreatedAtAction(nameof(GetListById), new { id = createdList.Id }, createdList);
         }
 
@@ -55,6 +68,12 @@ namespace List.Controllers
             }
 
             var updatedList = await _listService.UpdateListAsync(list);
+
+            var message = JsonSerializer.Serialize(new { action = "update", list });
+            var content = new StringContent(message, Encoding.UTF8, "application/json");
+            var response = await _rabbitMQClient.PostAsync("task_queue", content);
+            response.EnsureSuccessStatusCode();
+
             return Ok(updatedList);
         }
 
@@ -62,6 +81,12 @@ namespace List.Controllers
         public async Task<IActionResult> DeleteList(int id)
         {
             await _listService.DeleteListAsync(id);
+
+            var message = JsonSerializer.Serialize(new { action = "delete", taskId = id });
+            var content = new StringContent(message, Encoding.UTF8, "application/json");
+            var response = await _rabbitMQClient.PostAsync("task_queue", content);
+            response.EnsureSuccessStatusCode();
+
             return NoContent();
         }
     }

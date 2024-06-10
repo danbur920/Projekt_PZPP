@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Board")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73bb0546db13930c012681d325e8a58c637782d5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Board")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Board")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
