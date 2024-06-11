@@ -11,12 +11,14 @@ namespace List.Models
         {
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=Burazzo\\SQLEXPRESS;Database=ListDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true");
-            }
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<_List>().HasData(
+                new _List { Id = 1, BoardId = 1, Name = "List 1", Description = "Description 1", CreatedAt = System.DateTime.Now, UpdatedAt = System.DateTime.Now },
+                new _List { Id = 2, BoardId = 1, Name = "List 2", Description = "Description 2", CreatedAt = System.DateTime.Now, UpdatedAt = System.DateTime.Now },
+                new _List { Id = 3, BoardId = 1, Name = "List 3", Description = "Description 3", CreatedAt = System.DateTime.Now, UpdatedAt = System.DateTime.Now }
+            );
         }
     }
 }

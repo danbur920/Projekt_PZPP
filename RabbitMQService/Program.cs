@@ -26,13 +26,13 @@ namespace RabbitMQService
             }
 
             app.UseHttpsRedirection();
-            app.UseEndpoints(endpoints => endpoints.MapControllers());
+            app.UseRouting(); // This should come before app.UseEndpoints()
             app.UseAuthorization();
 
-
-            app.MapControllers();
-            app.UseRouting();
-
+            app.UseEndpoints(endpoints => 
+            {
+                endpoints.MapControllers();
+            });
 
             app.Run();
         }

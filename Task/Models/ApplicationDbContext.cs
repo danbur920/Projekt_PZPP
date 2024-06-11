@@ -12,12 +12,14 @@ namespace Task.Models
 
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=Burazzo\\SQLEXPRESS;Database=TaskDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true");
-            }
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<_Task>().HasData(
+                new _Task { Id = 1, ListId = 1, Title = "Task 1", Description = "Description 1", Deadline = System.DateTime.Now, State = "To Do" },
+                new _Task { Id = 2, ListId = 1, Title = "Task 2", Description = "Description 2", Deadline = System.DateTime.Now, State = "To Do" },
+                new _Task { Id = 3, ListId = 1, Title = "Task 3", Description = "Description 3", Deadline = System.DateTime.Now, State = "To Do" }
+            );
         }
     }
 }

@@ -11,12 +11,14 @@ namespace Board.Models
         {
         }
 
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            if (!optionsBuilder.IsConfigured)
-            {
-                optionsBuilder.UseSqlServer("Server=Burazzo\\SQLEXPRESS;Database=BoardDb;Trusted_Connection=True;MultipleActiveResultSets=true;TrustServerCertificate=true");
-            }
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<_Board>().HasData(
+                new _Board { Id = 1, Name = "Board 1", Description = "Description 1", CreatedAt = DateTime.Now, UpdatedAt = DateTime.Now },
+                new _Board { Id = 2, Name = "Board 2", Description = "Description 2", CreatedAt = DateTime.Now, UpdatedAt = DateTime.Now },
+                new _Board { Id = 3, Name = "Board 3", Description = "Description 3", CreatedAt = DateTime.Now, UpdatedAt = DateTime.Now }
+            );
         }
     }
 }

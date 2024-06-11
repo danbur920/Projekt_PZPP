@@ -1,231 +1,78 @@
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\appsettings.json
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\List.exe
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\List.deps.json
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\List.runtimeconfig.json
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\List.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\List.pdb
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Humanizer.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.csproj.AssemblyReference.cache
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.AssemblyInfoInputs.cache
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.AssemblyInfo.cs
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.csproj.CoreCompileInputs.cache
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.List.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.build.List.props
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.List.props
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.List.props
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\scopedcss\bundle\List.styles.css
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.csproj.CopyComplete
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\refint\List.dll
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.pdb
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\List.genruntimeconfig.cache
-C:\Users\danbu\Desktop\PZPP_Actual\PZPP\Projekt\PZPP\List\obj\Debug\net7.0\ref\List.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\appsettings.json
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\List.exe
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\List.deps.json
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\List.runtimeconfig.json
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\List.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\List.pdb
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Humanizer.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.csproj.AssemblyReference.cache
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.AssemblyInfoInputs.cache
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.AssemblyInfo.cs
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.csproj.CoreCompileInputs.cache
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.sourcelink.json
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.List.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.build.List.props
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.List.props
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.List.props
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\scopedcss\bundle\List.styles.css
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.csproj.Up2Date
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\refint\List.dll
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.pdb
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\List.genruntimeconfig.cache
-C:\Users\danbu\Desktop\Projekt_PZPP\Projekt_PZPP\List\obj\Debug\net7.0\ref\List.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\appsettings.Development.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\appsettings.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\List.exe
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\List.deps.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\List.runtimeconfig.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\List.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\List.pdb
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Azure.Core.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Azure.Identity.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Humanizer.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Identity.Client.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.OpenApi.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Mono.TextTemplating.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\System.CodeDom.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\System.Drawing.Common.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\System.Memory.Data.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\System.Runtime.Caching.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\System.Security.Permissions.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\System.Windows.Extensions.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.csproj.AssemblyReference.cache
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.AssemblyInfoInputs.cache
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.AssemblyInfo.cs
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.csproj.CoreCompileInputs.cache
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.sourcelink.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets.build.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets.development.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.List.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.build.List.props
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.List.props
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.List.props
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets.pack.json
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\scopedcss\bundle\List.styles.css
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.csproj.Up2Date
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\refint\List.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.pdb
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\List.genruntimeconfig.cache
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\obj\Debug\net7.0\ref\List.dll
-C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP\List\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\appsettings.json
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\List.exe
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\List.deps.json
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\List.runtimeconfig.json
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\List.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\List.pdb
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Humanizer.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.csproj.AssemblyReference.cache
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.AssemblyInfoInputs.cache
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.AssemblyInfo.cs
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.csproj.CoreCompileInputs.cache
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.sourcelink.json
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.List.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.build.List.props
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.List.props
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.List.props
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\scopedcss\bundle\List.styles.css
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.csproj.Up2Date
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\refint\List.dll
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.pdb
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\List.genruntimeconfig.cache
+C:\Users\Dawid\Desktop\Nowy folder (2)\Projekt_PZPP\List\obj\Debug\net7.0\ref\List.dll

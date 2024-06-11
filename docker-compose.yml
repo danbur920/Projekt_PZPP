@@ -1,67 +1,135 @@
 version: '3.4'
 
+volumes:
+  board-db:
+  list-db:
+  task-db:
+  userManagement-db:
+
 services:
-  board:
-    image: ${DOCKER_REGISTRY-}board
+  board-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+      MSSQLPID: "Express"
+    volumes:
+      - board-db:/var/opt/mssql
+    networks:
+      - pzpp
+
+  boardservice:
     build:
       context: .
       dockerfile: Board/Dockerfile
-    ports:
-      - "5000:80"
     networks:
-      - default
+      - pzpp
+    links:
+      - board-db
+    depends_on:
+      - rabbitmqservice
+      - board-db
 
-  list:
-    image: ${DOCKER_REGISTRY-}list
+  list-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+      MSSQLPID: "Express"
+    volumes:
+      - list-db:/var/opt/mssql
+    networks:
+      - pzpp
+
+  listservice:
     build:
       context: .
       dockerfile: List/Dockerfile
-    ports:
-      - "5001:80"
     networks:
-      - default
+      - pzpp
+    links:
+      - list-db
+    depends_on:
+      - rabbitmqservice
+      - list-db
 
-  task:
-    image: ${DOCKER_REGISTRY-}task
+  task-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+      MSSQLPID: "Express"
+    volumes:
+      - task-db:/var/opt/mssql
+    networks:
+      - pzpp
+
+  taskservice:
     build:
       context: .
       dockerfile: Task/Dockerfile
-    ports:
-      - "5002:80"
     networks:
-      - default
+      - pzpp
+    links:
+      - task-db
+    depends_on:
+      - rabbitmqservice
+      - task-db
 
-  user-management:
-    image: ${DOCKER_REGISTRY-}user-management
+  usermanagement-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+      MSSQLPID: "Express"
+    networks:
+      - pzpp
+    volumes:
+      - userManagement-db:/var/opt/mssql
+
+  usermanagementservice:
     build:
       context: .
       dockerfile: UserManagement/Dockerfile
-    ports:
-      - "5003:80"
     networks:
-      - default
+      - pzpp
+    links:
+      - usermanagement-db
+    depends_on:
+      - rabbitmqservice
+      - usermanagement-db
 
   rabbitmqservice:
     build:
       context: .
       dockerfile: RabbitMQService/Dockerfile
-    ports:
-      - "5005:80"
     networks:
-      - default
+      - pzpp
+    depends_on:
+      - rabbitmq
 
   rabbitmq:
     image: rabbitmq:3-management
-    ports:
-      - "5672:5672"
-      - "15672:15672"
     environment:
       RABBITMQ_DEFAULT_USER: user
       RABBITMQ_DEFAULT_PASS: password
     networks:
-      - default
+      - pzpp
 
+  frontend:
+    build:
+      context: ./front
+      dockerfile: dockerfile
+    networks:
+      - pzpp
+    links:
+      - boardservice
+      - listservice
+      - taskservice
+      - usermanagementservice
+    ports:
+      - "3030:80"
+      
 networks:
-  default:
-    external:
-      name: projekt_pzpp_default
+  pzpp:
+    driver: bridge
