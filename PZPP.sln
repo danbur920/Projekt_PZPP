@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserManagement", "UserManag
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{4857CE0B-FA72-47AE-83DE-7BA47BB08B6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQService", "RabbitMQService\RabbitMQService.csproj", "{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQService", "RabbitMQService\RabbitMQService.csproj", "{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{E485263F-8CD9-4EE3-893D-F34B2A0B8C7F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CBA8E825-10DA-4A33-B756-2DD1B5C389FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E485263F-8CD9-4EE3-893D-F34B2A0B8C7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E485263F-8CD9-4EE3-893D-F34B2A0B8C7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E485263F-8CD9-4EE3-893D-F34B2A0B8C7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E485263F-8CD9-4EE3-893D-F34B2A0B8C7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
