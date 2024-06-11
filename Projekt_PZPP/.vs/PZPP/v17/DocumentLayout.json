@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E485263F-8CD9-4EE3-893D-F34B2A0B8C7F}|..\\Tests\\Tests.csproj|c:\\users\\danbu\\desktop\\pzpp\\tests\\boardservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\board\\services\\boardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|solutionrelative:board\\services\\boardservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F09E6BA-65FC-4D73-AC02-883D0D921371}|List\\List.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\list\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4F09E6BA-65FC-4D73-AC02-883D0D921371}|List\\List.csproj|solutionrelative:list\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\board\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|solutionrelative:board\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\board\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|solutionrelative:board\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\board\\repositories\\boardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|solutionrelative:board\\repositories\\boardrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\board\\controllers\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FAAA262-F11C-47B6-B627-11AD9AADF201}|Board\\Board.csproj|solutionrelative:board\\controllers\\boardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C30C9-6DF4-457B-B9AA-3EFE0A09E218}|Task\\Task.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\task\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{243C30C9-6DF4-457B-B9AA-3EFE0A09E218}|Task\\Task.csproj|solutionrelative:task\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{243C30C9-6DF4-457B-B9AA-3EFE0A09E218}|Task\\Task.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{243C30C9-6DF4-457B-B9AA-3EFE0A09E218}|Task\\Task.csproj|solutionrelative:task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F09E6BA-65FC-4D73-AC02-883D0D921371}|List\\List.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4F09E6BA-65FC-4D73-AC02-883D0D921371}|List\\List.csproj|solutionrelative:list\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4F09E6BA-65FC-4D73-AC02-883D0D921371}|List\\List.csproj|c:\\users\\danbu\\desktop\\pzpp\\projekt_pzpp\\list\\list.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4F09E6BA-65FC-4D73-AC02-883D0D921371}|List\\List.csproj|solutionrelative:list\\list.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\List\\appsettings.json",
+              "RelativeDocumentMoniker": "List\\appsettings.json",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\List\\appsettings.json",
+              "RelativeToolTip": "List\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-11T10:42:15.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\appsettings.json",
+              "RelativeDocumentMoniker": "Board\\appsettings.json",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\appsettings.json",
+              "RelativeToolTip": "Board\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-11T10:41:46.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\Dockerfile",
+              "RelativeDocumentMoniker": "Board\\Dockerfile",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\Dockerfile",
+              "RelativeToolTip": "Board\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-11T10:41:38.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BoardService.cs",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\Services\\BoardService.cs",
+              "RelativeDocumentMoniker": "Board\\Services\\BoardService.cs",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\Services\\BoardService.cs",
+              "RelativeToolTip": "Board\\Services\\BoardService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:32:43.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BoardRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\Repositories\\BoardRepository.cs",
+              "RelativeDocumentMoniker": "Board\\Repositories\\BoardRepository.cs",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\Repositories\\BoardRepository.cs",
+              "RelativeToolTip": "Board\\Repositories\\BoardRepository.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:32:33.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BoardController.cs",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\Controllers\\BoardController.cs",
+              "RelativeDocumentMoniker": "Board\\Controllers\\BoardController.cs",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Board\\Controllers\\BoardController.cs",
+              "RelativeToolTip": "Board\\Controllers\\BoardController.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAQwGkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:23:46.189Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BoardServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Tests\\BoardServiceTests.cs",
+              "RelativeDocumentMoniker": "..\\Tests\\BoardServiceTests.cs",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Tests\\BoardServiceTests.cs",
+              "RelativeToolTip": "..\\Tests\\BoardServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T10:23:29.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Task\\Dockerfile",
+              "RelativeDocumentMoniker": "Task\\Dockerfile",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Task\\Dockerfile",
+              "RelativeToolTip": "Task\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-11T09:42:10.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Task\\Program.cs",
+              "RelativeDocumentMoniker": "Task\\Program.cs",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\Task\\Program.cs",
+              "RelativeToolTip": "Task\\Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:42:07.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\List\\Program.cs",
+              "RelativeDocumentMoniker": "List\\Program.cs",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\List\\Program.cs",
+              "RelativeToolTip": "List\\Program.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:36:31.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "List.csproj",
+              "DocumentMoniker": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\List\\List.csproj",
+              "RelativeDocumentMoniker": "List\\List.csproj",
+              "ToolTip": "C:\\Users\\danbu\\Desktop\\pzpp\\Projekt_PZPP\\List\\List.csproj",
+              "RelativeToolTip": "List\\List.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-11T09:36:31.067Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

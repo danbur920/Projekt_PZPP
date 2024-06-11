@@ -1,0 +1,135 @@
+version: '3.4'
+
+volumes:
+  board-db:
+  list-db:
+  task-db:
+  userManagement-db:
+
+services:
+  board-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+      MSSQLPID: "Express"
+    volumes:
+      - board-db:/var/opt/mssql
+    networks:
+      - pzpp
+
+  boardservice:
+    build:
+      context: .
+      dockerfile: Board/Dockerfile
+    networks:
+      - pzpp
+    links:
+      - board-db
+    depends_on:
+      - rabbitmqservice
+      - board-db
+
+  list-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+      MSSQLPID: "Express"
+    volumes:
+      - list-db:/var/opt/mssql
+    networks:
+      - pzpp
+
+  listservice:
+    build:
+      context: .
+      dockerfile: List/Dockerfile
+    networks:
+      - pzpp
+    links:
+      - list-db
+    depends_on:
+      - rabbitmqservice
+      - list-db
+
+  task-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+      MSSQLPID: "Express"
+    volumes:
+      - task-db:/var/opt/mssql
+    networks:
+      - pzpp
+
+  taskservice:
+    build:
+      context: .
+      dockerfile: Task/Dockerfile
+    networks:
+      - pzpp
+    links:
+      - task-db
+    depends_on:
+      - rabbitmqservice
+      - task-db
+
+  usermanagement-db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Password123"
+      ACCEPT_EULA: "Y"
+      MSSQLPID: "Express"
+    networks:
+      - pzpp
+    volumes:
+      - userManagement-db:/var/opt/mssql
+
+  usermanagementservice:
+    build:
+      context: .
+      dockerfile: UserManagement/Dockerfile
+    networks:
+      - pzpp
+    links:
+      - usermanagement-db
+    depends_on:
+      - rabbitmqservice
+      - usermanagement-db
+
+  rabbitmqservice:
+    build:
+      context: .
+      dockerfile: RabbitMQService/Dockerfile
+    networks:
+      - pzpp
+    depends_on:
+      - rabbitmq
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    environment:
+      RABBITMQ_DEFAULT_USER: user
+      RABBITMQ_DEFAULT_PASS: password
+    networks:
+      - pzpp
+
+  frontend:
+    build:
+      context: ./front
+      dockerfile: dockerfile
+    networks:
+      - pzpp
+    links:
+      - boardservice
+      - listservice
+      - taskservice
+      - usermanagementservice
+    ports:
+      - "3030:80"
+      
+networks:
+  pzpp:
+    driver: bridge
