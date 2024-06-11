@@ -1,0 +1,86 @@
+name: dockercompose12799344584531709688
+services:
+  board:
+    build:
+      context: C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP
+      dockerfile: Board/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: board
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5000"
+        protocol: tcp
+      - mode: ingress
+        target: 80
+        protocol: tcp
+  list:
+    build:
+      context: C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP
+      dockerfile: List/Dockerfile
+    image: list
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5001"
+        protocol: tcp
+  rabbitmq:
+    environment:
+      RABBITMQ_DEFAULT_PASS: password
+      RABBITMQ_DEFAULT_USER: user
+    image: rabbitmq:3-management
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+      - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+  rabbitmqservice:
+    build:
+      context: C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP
+      dockerfile: RabbitMQService/Dockerfile
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5005"
+        protocol: tcp
+  task:
+    build:
+      context: C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP
+      dockerfile: Task/Dockerfile
+    image: task
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5002"
+        protocol: tcp
+  user-management:
+    build:
+      context: C:\Users\danbu\Desktop\Studia_6_semestr\PZPP\Nowy folder\Projekt_PZPP
+      dockerfile: UserManagement/Dockerfile
+    image: user-management
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 80
+        published: "5003"
+        protocol: tcp
+networks:
+  default:
+    name: projekt_pzpp_default
+    external: true
