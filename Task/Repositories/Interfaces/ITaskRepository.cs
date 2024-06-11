@@ -9,5 +9,6 @@ namespace Task.Repositories.Interfaces
         Task<_Task> CreateTaskAsync(_Task task);
         Task<_Task> UpdateTaskAsync(_Task task);
         System.Threading.Tasks.Task DeleteTaskAsync(int id);
+        Task<IEnumerable<_Task>> GetTasksByListIdAsync(int listId);
     }
 }

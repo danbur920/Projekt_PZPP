@@ -59,6 +59,11 @@ namespace Task.Repositories
                 await _context.SaveChangesAsync();
             }
         }
+
+        public async Task<IEnumerable<_Task>> GetTasksByListIdAsync(int listId)
+        {
+            return await _context.Tasks.Where(t => t.ListId == listId).ToListAsync();
+        }
     }
 }
 

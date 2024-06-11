@@ -90,5 +90,11 @@ namespace Task.Controllers
 
             return NoContent();
         }
+
+        [HttpGet("byList/{listId}")]
+        public async Task<IEnumerable<_Task>> GetTasksByListId(int listId)
+        {
+            return await _taskService.GetTasksByListIdAsync(listId);
+        }
     }
 }

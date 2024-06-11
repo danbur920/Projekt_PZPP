@@ -9,5 +9,6 @@ namespace Task.Services.Interfaces
         Task<IEnumerable<_Task>> GetAllTasksAsync();
         Task<_Task> GetTaskByIdAsync(int id);
         Task<_Task> UpdateTaskAsync(_Task task);
+        Task<IEnumerable<_Task>> GetTasksByListIdAsync(int listId);
     }
 }

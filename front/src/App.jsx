@@ -1,7 +1,20 @@
 import './App.css'
 import { Box, Flex, Heading } from '@chakra-ui/react';
 import Boards from './Boards'
+import Board from './Board'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <Boards />
+  }, 
+  {
+    path: '/board/:id',
+    element: <Board />
+  }
+
+]);
 
 function App() {
 
@@ -9,9 +22,9 @@ function App() {
     <>
     <Flex direction="column" minH="100vh">
         <Box bg="teal.500" w="100%" p={4} color="white">
-          <Heading size="lg">ELLO</Heading>
+            <Heading size="lg">ELLO</Heading>
         </Box>
-        <Boards />
+        <RouterProvider router={router} />
       </Flex>
       
     </>

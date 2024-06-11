@@ -37,5 +37,10 @@ namespace Task.Services
         {
             return await _taskRepository.UpdateTaskAsync(task);
         }
+
+        public async Task<IEnumerable<_Task>> GetTasksByListIdAsync(int listId)
+        {
+            return await _taskRepository.GetTasksByListIdAsync(listId);
+        }
     }
 }
