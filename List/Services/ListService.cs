@@ -47,5 +47,11 @@ namespace List.Services
         {
             await _listRepository.DeleteListAsync(id);
         }
+
+        public async Task<IEnumerable<_List>> GetListsByBoardIdAsync(int boardId)
+        {
+            return await _listRepository.GetListsByBoardIdAsync(boardId);
+        }
+
     }
 }

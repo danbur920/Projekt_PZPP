@@ -89,5 +89,12 @@ namespace List.Controllers
 
             return NoContent();
         }
+
+        [HttpGet("byBoard/{boardId}")]
+        public async Task<IActionResult> GetListsByBoardId(int boardId)
+        {
+            var lists = await _listService.GetListsByBoardIdAsync(boardId);
+            return Ok(lists);
+        }
     }
 }

@@ -9,5 +9,6 @@ namespace List.Services.Interfaces
         Task<_List> CreateListAsync(_List list);
         Task<_List> UpdateListAsync(_List list);
         Task DeleteListAsync(int id);
+        Task<IEnumerable<_List>> GetListsByBoardIdAsync(int boardId);
     }
 }

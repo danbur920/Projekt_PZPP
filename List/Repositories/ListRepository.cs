@@ -13,6 +13,11 @@ namespace List.Repositories
             _context = context;
         }
 
+        public async Task<IEnumerable<_List>> GetListsByBoardIdAsync(int boardId)
+        {
+            return await _context.Lists.Where(l => l.BoardId == boardId).ToListAsync();
+        }
+
         public async Task<IEnumerable<_List>> GetAllListsAsync()
         {
             return await _context.Lists.ToListAsync();
